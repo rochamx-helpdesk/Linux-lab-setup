@@ -1,6 +1,5 @@
 # Linux-lab-setup
 Documentación de mi laboratorio Linux - Fase 1 del aprendizaje DevSecOps
-# Linux Lab Setup
 
 ## ¿Qué es este proyecto?
 Documentación de la instalación y configuración de mi laboratorio personal con Linux.
