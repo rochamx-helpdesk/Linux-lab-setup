@@ -30,3 +30,15 @@ Parte de mi aprendizaje hacia DevSecOps.
 - [ ] Configurar servidor SSH
 - [ ] Instalar y usar Nmap
 - [ ] Practicar Bash scripting
+
+## Problemas resueltos
+
+### Minecraft en Ubuntu 24.04
+El launcher oficial (.deb) no abría por incompatibilidad de librerías.
+
+**Solución — Flatpak:**
+sudo apt install flatpak -y
+flatpak --user remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install minecraft
+flatpak run com.mojang.Minecraft
+Seleccionar opción 3 (com.mojang.Minecraft) cuando lo pida.
