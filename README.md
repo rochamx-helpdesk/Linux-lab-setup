@@ -42,3 +42,28 @@ flatpak --user remote-add --if-not-exists flathub https://dl.flathub.org/repo/fl
 flatpak install minecraft
 flatpak run com.mojang.Minecraft
 Seleccionar opción 3 (com.mojang.Minecraft) cuando lo pida.
+
+
+## Día 1 — 16 marzo 2026
+**Tema:** Navegación en Linux
+
+**Lo que practiqué:**
+| Comando | Qué hace |
+|---------|----------|
+| pwd | Muestra en qué carpeta estás |
+| ls | Lista archivos y carpetas |
+| cd | Navega entre carpetas |
+| cd .. | Sube un nivel |
+| cd ~/ | Regresa a tu carpeta personal |
+| mkdir | Crea una carpeta |
+| touch | Crea un archivo vacío |
+| rm -r | Borra una carpeta con contenido |
+
+**Problema que resolví:**
+Al dar dos veces `cd ..` llegué a la raíz del sistema y vi bin, home, mnt, usr.
+Solución: usar `cd home` luego `cd (user)` para regresar a mi carpeta personal.
+Atajo aprendido: `cd ~/` regresa siempre a casa sin importar dónde estés.
+
+**Lo que entendí:**
+Linux es un árbol de carpetas. La raíz es `/` y todo vive dentro de ella.
+Mi carpeta personal siempre es `/home/user` y el símbolo `~` la representa.
